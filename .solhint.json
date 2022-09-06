@@ -27,6 +27,7 @@
         "ignoreConstructors": true
       }
     ],
+    "quotes": "off",
     "not-rely-on-time": "off",
     "reason-string": [
       "warn",

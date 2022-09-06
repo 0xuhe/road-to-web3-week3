@@ -58,7 +58,16 @@ const config: HardhatUserConfig = {
       url: node_url('goerli'),
       accounts: accounts('goerli'),
     },
+    mumbai: {
+      url: node_url('mumbai'),
+      accounts: accounts('mumbai'),
+    },
   }),
+  // etherscan: {
+  //   apiKey: {
+  //     mumbai: process.env.POLYGONSAN_API_KEY,
+  //   },
+  // },
   paths: {
     sources: 'src',
   },
